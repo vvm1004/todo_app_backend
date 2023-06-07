@@ -1,7 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const date = require(__dirname + '/date.js')
-const mongoose = require('mongoose')
 
 const app = express()
 const port = 3000
